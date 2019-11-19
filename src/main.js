@@ -1,3 +1,4 @@
+'use strict';
 const createMenuTemplate = () => {
   return (
     `<section class="control__btn-wrap">
@@ -105,7 +106,7 @@ const createFilterTemplate = () => {
 };
 
 const createBoardTemplate = () => {
-  return(
+  return (
     `<section class="board container">
         <div class="board__filter-list">
           <a href="#" class="board__filter">SORT BY DEFAULT</a>
@@ -119,7 +120,7 @@ const createBoardTemplate = () => {
 };
 
 const createTaskTemplate = () => {
-  return(
+  return (
     `<article class="card card--black">
             <div class="card__form">
               <div class="card__inner">
