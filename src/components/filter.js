@@ -1,6 +1,4 @@
-const createFilterMarkup = (filter, isChecked) => {
-  const {name, count} = filter;
-
+const createFilterMarkup = ({name, count, isChecked}) => {
   return (
     `<input
         type="radio"
