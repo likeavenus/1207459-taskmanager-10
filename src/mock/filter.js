@@ -3,12 +3,12 @@ const filterNames = [
 ];
 
 const generateFilters = () => {
-  return filterNames.map((item)=> {
+  return filterNames.map((it) => {
     return {
-      name: item,
-      count: Math.floor(Math.random() * 10)
+      name: it,
+      count: Math.floor(Math.random() * 10),
     };
   });
 };
 
-export const filters = generateFilters();
+export {generateFilters};
